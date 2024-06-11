@@ -7,4 +7,4 @@ At a more advanced stage, sacrifice the performance, isolate each windows as wor
 Solid boundary may disable/disallow/block the boundary utilities, or totally not providing these to others(boundaries).
 - Boundaries communication should done via boundary connector, boundaries animation may done via boundary state injector.
 - Boundaries need no to placed near to each other to use boundary connector / boundary state injector.
-- Components within boundary must always overseen/handled by framework calculating its optimal size (default/definable by dev) in case the explicit sizing settings were not set.
+- Components within boundary must always overseen/handled by framework calculating its optimal size (default/definable by dev) in case the explicit sizing settings were not set, or, just in case, interupt and disallow any attempt to help them escape their matrix.
