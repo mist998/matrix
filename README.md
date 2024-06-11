@@ -1,6 +1,6 @@
 # matrix
 Small idea inspired by the modern JS framework and the pain of CSS-ing.
-It proposes a framework, separating each windows in a single webpage as  zone/world, that their boundaries are fixed and any components inside always confined in it, as in a world they can never escape. 
+It proposes a tiny framework, separating each window in a single webpage as zone/world, that their boundaries are fixed and any components inside always confined in it, as in a world they can never escape.
 It is more like structuring the code and the way of thinking, and coincidently enforce some display rules to against some simple no-no visual bugs on a simple webpage.
 At a more advanced stage, sacrifice the performance, isolate each windows as world, and strictly disallow them to inteference each other except the uses of boundary utility.
 
