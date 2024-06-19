@@ -10,6 +10,5 @@ Solid boundary may disable/disallow/block the boundary utilities, or totally not
 - Boundary connector or boundary state injector shall be used within another boundary, but also allowing dev to use them outside the boundary with the role of matrix maintainer.
 - Components within boundary must always overseen/handled by framework calculating its optimal size (default/definable by dev) in case the explicit sizing settings were not set, or, just in case, interrupt and disallow any attempt to help them escape their matrix.
 
-Don't read, degenerate idea:
-- Boundaries visualization may done via auto allocation of zIndex, traditional thinking of element within element may withhold, and now should be element on element but element on element could have element in it.
-- Element within element should represent as a boundary chain
+Don't read, harmful degenerate idea:
+- Boundaries visualization may done via auto allocation of zIndex, traditional thinking of element within element may withhold, and now should be element on element but element on element could have element beneath it.
